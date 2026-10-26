@@ -7,7 +7,7 @@ The project uses reusable Terraform modules for **Amazon EC2, Amazon S3, and Ama
 ## Architecture
 
 <!-- Update the architecture image so it shows DynamoDB instead of RDS, then save it at this path. -->
-![Terraform AWS environments architecture](docs/terraform-aws-environments.png)
+![Terraform AWS environments architecture](https://github.com/adnansd837-eng/terra-aws-module-workspace/blob/c75ba5cb29e461c5283962355e70e8a58a504e69/Terraform%20AWS%20Environments%20Overview.png)
 
 > **Diagram note:** The current diagram should be updated to show **DynamoDB** in place of **RDS** so it matches the modules used by this project.
 
