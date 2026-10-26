@@ -16,7 +16,7 @@ The project uses reusable Terraform modules for **Amazon EC2, Amazon S3, and Ama
 | Environment | Workspace | Purpose | Modules |
 |---|---|---|---|
 | Development | `dev` | Build and test changes | EC2, S3, DynamoDB |
-| UAT / Staging | `uat` | Validate changes before release | EC2, S3, DynamoDB |
+| UAT / Staging | `stg` | Validate changes before release | EC2, S3, DynamoDB |
 | Production | `prd` | Run production workloads | EC2, S3, DynamoDB |
 
 Resource counts and settings can differ by environment according to the requirements and cost limits.
@@ -51,7 +51,7 @@ Your actual filenames may differ; adjust this example to match your repository:
 ├── terraform.tf
 ├── environments/
 │   ├── dev.tfvars
-│   ├── uat.tfvars
+│   ├── stg.tfvars
 │   └── prd.tfvars
 ├── modules/
 │   ├── ec2/
