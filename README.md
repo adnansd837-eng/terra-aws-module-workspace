@@ -97,6 +97,8 @@ List available workspaces:
 terraform workspace list
 ```
 
+![Terraform AWS environments architecture](http.png)
+
 Select an existing workspace or create one:
 
 ```bash
@@ -105,7 +107,7 @@ terraform workspace select dev
 terraform workspace new dev
 ```
 
-Repeat for `uat` and `prd` as needed.
+Repeat for `stg` and `prd` as needed.
 
 > **Important:** Workspaces separate Terraform state; they do not automatically isolate AWS accounts, regions, permissions, or resource names. Confirm that the configuration maps each workspace to the intended environment before deploying.
 
