@@ -97,7 +97,7 @@ List available workspaces:
 terraform workspace list
 ```
 
-![Terraform AWS environments architecture](http.png)
+![Terraform AWS environments architecture](https://github.com/adnansd837-eng/terra-aws-module-workspace/blob/304b5ac4284b95eb161f75aed2d4b28d220c0429/Screenshot%202026-10-27%20005425.png)
 
 Select an existing workspace or create one:
 
